@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Shoe Company</title>
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body class="bg-black text-white">
+    <header
+      class="flex items-center justify-between px-6 md:px-12 fixed w-full max-w-[1440px] left-[50%] -translate-x-[50%]"
+    >
+      <a href="#">
+        <img class="w-24 md:w-32" src="./Images/logo.png" alt="logo" />
+        <p class="text-xs -mt-6 md:text-sm md:-mt-8">The Shoe Company</p>
+      </a>
+      <nav class="hidden md:block space-x-6 lg:space-x-8 lg:text-2xl">
+        <a class="font-bold" href="#hero">Home</a>
+        <a class="font-bold" href="#how-it-works">How it works?</a>
+        <a class="font-bold" href="#about">About</a>
+        <a class="font-bold" href="#testimonial">Testimonials</a>
+        <a class="font-bold" href="#contact">Contact Us</a>
+      </nav>
+      <button class="md:hidden text-5xl">☰</button>
+    </header>
+    <section
+      id="hero"
+      class="bg-[url('./images/hero-background.png')] bg-cover md:bg-contain bg-no-repeat bg-right pt-36 px-6 md:px-12 max-w-[1440px] mx-auto"
+    >
+      <div class="flex flex-col md:flex-row md:items-center max-w-3xl mx-auto">
+        <h1
+          class="text-3xl md:text-5xl font-bold leading-[48px] md:leading-[72px]"
+        >
+          THE<br />
+          SHOE <br />COMPANY
+        </h1>
+        <div>
+          <img
+            class="w-full max-w-xl"
+            src="/Images/hero-image.png"
+            alt="white-shoe"
+          />
+        </div>
+      </div>
+    </section>
+    <section
+      id="how-it-works"
+      class="px-6 md:px-12 max-w-[1440px] mx-auto pt-12"
+    >
+      <h2 class="text-center text-3xl font-bold max-w-md mx-auto">
+        Have they finally made the perfect workout shoe?
+      </h2>
+      <div class="max-w-2xl mx-auto mt-14 relative">
+        <img
+          class="w-full max-w-2xl"
+          src="./Images/how-it-works.png"
+          alt="shoe"
+        />
+        <div class="max-w-xs absolute top-16 -translate-x-full">
+          <h3 class="text-lg font-bold">THE HEEL</h3>
+          <p class="text-xs">
+            The heel is well-built, has appropriate elevation and is not too
+            rigid.
+          </p>
+          <img src="./Images/arrow-1.png" alt="arrow-1" class="w-32 ml-auto" />
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
